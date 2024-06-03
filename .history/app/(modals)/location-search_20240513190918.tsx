@@ -1,0 +1,15 @@
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+import MapView, { PROVIDER_GOOGLE } from 'react-native-maps'
+
+const LocationSearch = () => {
+  return (
+    <View style={{flex: 1}}>
+        <MapView style={StyleSheet.absoluteFill} provider={PROVIDER_GOOGLE}/>
+    </View>
+  )
+}
+
+export default LocationSearch
+
+const styles = StyleSheet.create({})

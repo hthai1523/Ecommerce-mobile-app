@@ -32,7 +32,7 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
   return (
     <TouchableOpacity
-      className={`flex-row justify-center items-center gap-1 mt-3 ${
+      className={`flex-row justify-center items-center gap-1 ${
         primary ? "bg-sky-400 " : "border border-sky-400 text-sky-400"
       } rounded-md`}
       style={{ width: width, height: height }}
